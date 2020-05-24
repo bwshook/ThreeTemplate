@@ -1,3 +1,10 @@
+# Webserver build
+dist
+node_modules
+
+# Editor
+.vscode
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
