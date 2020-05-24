@@ -1,2 +1,2 @@
 # ThreeTemplate
-A simple three.js typscript node.js template.
+A simple three.js typescript node.js template.
