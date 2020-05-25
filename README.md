@@ -2,7 +2,7 @@
 A simple three.js typescript webpack node.js template.
 
 ## Microsoft Windows 10 Setup
-* Set PowerShell Scripting Resistrictions for User
+* Set PowerShell script execution resistrictions for user:
 
 ```PowerShell
 Set-ExecutionPolicy RemoteSigned
@@ -17,5 +17,7 @@ cd ThreeTemplate
 npm run build
 ```
 
-## Launch Simple Node.js Server
-* http-server ./dist -p 8000
+## Launch Server
+```PowerShell
+npm start
+```
