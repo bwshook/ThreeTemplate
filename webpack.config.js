@@ -19,9 +19,13 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'three.js webpack template',
+      title: 'Three.js webpack template',
+      template: './src/index.html'
     }),
   ],
+  devServer: {
+    contentBase: './dist',
+  },
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
