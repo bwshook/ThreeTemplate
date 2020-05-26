@@ -14,6 +14,7 @@ Set-ExecutionPolicy RemoteSigned
 ## Build Project
 ```PowerShell
 cd ThreeTemplate
+npm update
 npm run build
 ```
 
